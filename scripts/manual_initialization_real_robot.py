@@ -35,10 +35,10 @@ if __name__ == '__main__':
 	pos_cmd_point.time_from_start = rospy.Duration(1.0) # here one second 
 	pos_cmd_point.positions[1] = -1.75#-math.pi/3
 	pos_cmd_point.positions[2] = -1.25#math.pi/3
-	pos_cmd_point.positions[0] = -1.44#math.pi/3
-	pos_cmd_point.positions[3] = 1.7#math.pi/2
+	pos_cmd_point.positions[0] = -1.45#math.pi/3
+	pos_cmd_point.positions[3] = 1.71#math.pi/2
 	pos_cmd_point.positions[4] = -1.55#math.pi/2
-	pos_cmd_point.positions[5] = -1.2
+	pos_cmd_point.positions[5] = -1.23
 	
 	# add the trajectory point to the command
 	pos_cmd.points.append(pos_cmd_point)
