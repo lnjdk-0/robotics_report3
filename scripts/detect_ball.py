@@ -31,7 +31,7 @@ def get_image(ros_img):
 # Function to apply a mask to the image
 def get_mask(image):
     filter = np.zeros((720, 1280), dtype="uint8")
-    cv2.rectangle(filter, (0, 160), (720, 1000), (255, 255, 255), -1)
+    cv2.rectangle(filter, (300, 160), (720, 1000), (255, 255, 255), -1)
     mask = cv2.bitwise_and(image, filter)
     return mask
 
